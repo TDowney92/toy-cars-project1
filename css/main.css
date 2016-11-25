@@ -1,0 +1,232 @@
+/* important page css */
+
+
+html {
+	position: relative;
+	min-height: 100%;
+	background-color: #691e25;
+}
+
+body {
+	margin: 0 0;
+	padding: 25px;
+	height: 100%;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	padding-left: 27px;
+}
+
+/* nav css */
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #dd2120;
+}
+
+ul.topnav li{
+	float: left;
+}
+
+ul.topnav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 35px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 1.5px;
+}
+
+ul.topnav li a:hover {
+	background-color: #691e25;
+}
+
+ul.topnav li.icon {
+	display: none;
+}
+
+@media screen and (max-width:1090px) {
+	ul.topnav li:not(:first-child) {display: none;}
+	ul.topnav li.icon {
+			float: right;
+			display: inline-block;
+		}
+}
+
+@media screen and (max-width:1090px) {
+	ul.topnav.responsive {position: relative;}
+	ul.topnav.responsive li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	ul.topnav.responsive li {
+		float: none;
+		display: inline;
+	}
+	ul.topnav.responsive li a {
+		display: block;
+		text-align: left;
+	}
+}
+/* end of nav css */
+
+ /* banner css */
+ .banner {
+	 padding: 20px;
+	 background-color: #f9907b;
+	 padding-bottom: 75px;
+
+ }
+
+ .banner ul{
+	 float: right;
+ }
+
+ .banner a.img {
+	 float: left;
+	 padding: 15px;
+	 max-width: 100%;
+	 height: auto;
+	}
+
+ .banner h1{
+	 font-family: 'Pathway Gothic One', sans-serif;
+	 position: relative;
+	 font-size: 2.5em;
+	 letter-spacing: 3px;
+	 clear: both;
+ }
+
+ .banner p {
+	 font-family: 'Open Sans Condensed', sans-serif;
+	 font-size: 2em;
+	 position: relative;
+	 letter-spacing: 1px;
+	 clear: both;
+ }
+
+
+/* end of banner css */
+/* cars css */
+
+.cars {
+	padding: 35px;
+	background: url("../img/sprinkles.png") repeat 0 0;
+	border-top: black solid 10px;
+	height: 100%;
+}
+.cars h1{
+	font-family: 'Pathway Gothic One', sans-serif;
+	position: relative;
+	font-size: 2.5em;
+}
+
+.cars img {
+	display: inline;
+	width: 275px;
+	height: 100%;
+	border-radius: 70%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 30px;
+	box-shadow: 10px 3px lightgrey;
+	position: center;
+}
+
+.cars img:hover{
+	box-shadow: 10px 3px #dd2120;
+}
+
+/* end of car css */
+
+/*begining of store css */
+.store {
+	padding: 40px;
+	background: url("../img/sprinkles.png") repeat 0 0;
+	border-top: black solid 10px;
+	height: 100%;
+}
+
+.store h1{
+	font-family: 'Pathway Gothic One', sans-serif;
+	position: relative;
+	font-size: 2.5em;
+	letter-spacing: 2.5px;
+}
+
+.simg {
+	float: left;
+	border: black 2px solid;
+	padding: 20px;
+	margin: 50px;
+}
+
+.simg img {
+	width: 100%;
+	height: auto;
+}
+
+.para {
+	padding: 20px;
+	font-size: 2em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 1px;
+}
+
+.form h4{
+	font-family: 'Pathway Gothic One', sans-serif;
+	position: center;
+	letter-spacing: 2.5px;
+}
+
+.button {
+	background-color: #dd2120;
+	border: 2px solid white;
+	color: black;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+
+}
+
+.form button:hover{
+	background-color: #9f1a1a;
+}
+
+.form fieldset {
+	max-width: 15%;
+	border: 3px solid #691e25;
+	font-size: 1.5em;
+}
+
+.form legend {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.5em;
+}
+
+.form input:focus {
+	border: none;
+	border-bottom: 2px solid red;
+	background-color: lightgrey;
+}
+
+
+.form input:hover{
+	background-colour: lightgray;
+}
